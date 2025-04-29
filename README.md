@@ -21,6 +21,9 @@ This space is dedicated to documenting my daily progress and practices as I dive
 - **`methods`**  
   ➡️ this folder contains practices on methods. Types of methods in java and a subfolder named exercise which contains the practiced questions related to methods in java
 
+- **`array`**  
+  ➡️ this folder contains practices on array. Syntax of array in java and a subfolder named exercise which contains the practiced questions related to array in java.
+
 ## How I Use This Repo ✍️
 
 - I update this repo every single day with new learnings.
