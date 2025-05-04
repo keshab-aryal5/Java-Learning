@@ -29,7 +29,7 @@ public class ReplicatingImage {
 		
 		for(i=0;i<student.length;i++)
 		{
-			System.out.println("Details of studnet"+(i+1)+": ");
+			System.out.println("Details of student"+(i+1)+": ");
 			System.out.println("Total marks: "+student[i][5]);
 			System.out.println("Percentage: "+student[i][6]+"%");
 		}
