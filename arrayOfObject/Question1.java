@@ -19,7 +19,7 @@ public class Question1 {
 	public static void main(String[] args) {
 		
 		//creating an array of Employee class to store 10 employees data... 
-		Employee[] emp = new Employee[5];
+		Employee[] emp = new Employee[10];
 		Scanner sc = new Scanner(System.in);
 		
 		for(int i=0;i<emp.length;i++)
