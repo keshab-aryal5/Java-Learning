@@ -1,0 +1,91 @@
+
+1. Interface with Basic Abstract Method and Constant
+Task:
+Create an interface Animal with:
+
+A constant MAX_AGE
+
+An abstract method makeSound()
+
+Implement this interface in Dog and Cat classes and call the method from the main class.
+
+2. Interface with Default Method
+Task:
+Create an interface Remote with a default method connect() and an abstract method powerOn().
+Implement it in TV and override the default method in one class only.
+
+3. Interface with Static Method
+Task:
+Create an interface MathUtility with a static method getPi() that returns 3.1415.
+Call this method from main() without implementing the interface.
+
+4. Interface with Private Method Called by Default Method
+Task:
+Create an interface Logger with a default method logInfo() that calls a private method getTimeStamp().
+Implement and test in ConsoleLogger class.
+
+5. Interface with Private Static Method Called by Static Method
+Task:
+Create an interface DatabaseConfig with a static method printSettings() that internally calls a private static method loadDefaults().
+Test it in main().
+
+6. Interface with Multiple Types of Methods
+Task:
+Create an interface Vehicle with:
+
+A constant MAX_SPEED
+
+Abstract method drive()
+
+Default method start()
+
+Static method serviceInfo()
+
+Private method logStart()
+
+Private static method loadServiceCenter()
+
+Use all of them appropriately in Car class and main().
+
+7. Multiple Interfaces with Conflicting Default Methods
+Task:
+Create two interfaces Flyable and Swimmable, each with a default method move().
+Implement both in a class Duck and resolve the conflict.
+
+8. Interface Method Overloading
+Task:
+Create an interface Printer with overloaded methods:
+
+print(String message)
+
+print(int copies, String message)
+
+Implement the interface and test both versions.
+
+9. Interface Field Access
+Task:
+Create an interface Constants with multiple constants like PI, E, VERSION.
+Access them from another class without implementing the interface.
+
+10. Interface Chain with Default + Private Methods
+Task:
+Create a base interface Device with a default method start() and private method initHardware().
+Extend it in SmartDevice, add another default method connectToWiFi() calling a new private method checkSignalStrength().
+
+Implement in Smartphone and call both defaults.
+
+11. Interface with Utility Static Methods
+Task:
+Create a Validator interface with only static and private static methods like:
+
+isValidEmail(String email)
+
+isValidPassword(String password)
+Use these in main() to validate inputs.
+
+12. Interface with Template Method Design Pattern
+Task:
+Create an interface Game with a default startGame() method that:
+
+Calls initialize(), play(), and end() – all of which are abstract methods.
+Implement this template flow in FootballGame and ChessGame.
