@@ -36,7 +36,7 @@ public class Question1 {
 			System.out.print("Enter name: ");
 			emp[i].setName(sc.nextLine());
 			
-		
+			
 			System.out.print("Enter comapny: ");
 			emp[i].setCompany(sc.nextLine());
 			
